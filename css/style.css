@@ -1,0 +1,402 @@
+/*===========/all common css start from here/===========*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: center;
+    border: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+/*===========/all common css end from here/===========*/
+
+/*===========/navbar part start from here/===========*/
+.main_menu .navbar-nav .nav-item .nav-link{
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.main_menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 40px;
+}
+/*===========/navbar part end from here/===========*/
+
+/*===========/banner part end from here/===========*/
+#banner{
+    padding-top: 255px;
+    padding-bottom: 155px;
+    background-image: url(../images/banner-one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* banner content start */
+.banner-content h3{
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    width: 860px;
+    margin: 0 auto;
+}
+.banner-content p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    width: 918px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+.banner-btn a{
+padding: 20px 50px;
+background-color: #e84545;
+font-size: 13px;
+font-weight: 400;
+color: #fff;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+border-radius: 5px;
+}
+/* banner content end */
+/*===========/banner part end from here/===========*/
+
+
+/*===========/features part start from here/===========*/
+#features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff;
+}
+/* features items start */
+.features-icon{
+    font-size: 66px;
+    color: #e84646;
+}
+.features-title h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.featues-para  p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.features-items{
+    padding-bottom: 70px;
+}
+/* features items end */
+/*===========/features part end from here/===========*/
+
+
+/*===========/work part start from here/===========*/
+/* work items start */
+.work-items-one{
+    display:flex;
+}
+.work-items-two{
+    display:flex;
+}
+.work-photo{
+    position: relative;
+    cursor: pointer;
+}
+.img-photo-overlay-one{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(229, 80, 80, 0.838);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+}
+.work-photo-text{
+    padding-top: 80px;
+}
+.work-photo-text p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.work-photo-text span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.work-photo:hover .img-photo-overlay-one{
+    opacity: 1;
+}
+/* work items start */
+/*===========/work part end from here/===========*/
+
+/*===========/team part start from here/===========*/
+#team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-title h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3033;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.team-title h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #e84545;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.team-photo-para p{
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
+    font-family: 'Raleway', sans-serif;
+    line-height: 21px;
+    width: 260;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.team-photo-icon i{
+   padding: 10px 25px;
+   border: 1px solid #e8ecee;
+   color: #e8ecee;
+}
+/*===========/taem part end from here/===========*/
+
+
+/*===========/taem part end from here/===========*/
+#testimonial{
+    background: #53354a;
+}
+.testimonial-photo-right p{
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.testimonial-photo-right h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+ /* testimonial part slick-dots start */
+ .slick-dots {
+    position: absolute;
+    left: 250px;
+    bottom: -40px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 0px;
+    background-color: #755d6e;
+    position: relative;
+    outline: none;
+}
+.slick-dots li button {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-top: 1px;
+	margin-left: -1px;
+	opacity: 0;
+    outline: none;
+}
+
+.slick-dots li.slick-active button{
+  opacity: 1;
+}
+  /* testimonial part slick-dots start */
+/*===========/taem part end from here/===========*/
+
+/*===========/taem part end from here/===========*/
+#download{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.download-para h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #2d3033;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+}
+.download-para h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #2d3033;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 40px;
+}
+.download-button a{
+    padding: 20px 80px;
+    border-radius: 5px;
+    background-color: #e84545;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+/*===========/team part end from here/===========*/
+
+/*===========/footer part start from here/===========*/
+#footer{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #3a3e64;
+}
+.footer-part-one h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.footer-part-one p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.footer-part-one span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.footer-part-two h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.footer-part-icon i{
+    padding: 10px 25px;
+    border: 2px solid #e8ecee;
+    color: #e8ecee;
+ }
+ .footer-part-three h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.footer-part-three p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    width: 335px;
+}
+/*===========/footer part end from here/===========*/
+
+/*===========/copyright part start from here/===========*/
+#copyright{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #313454;
+}
+.copyright-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    font-family: 'Raleway', sans-serif;
+}
+.copyright-text .fa{
+    color: #e84545;
+    padding: 5px 5px;
+}
+.copyright-text span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+/*===========/copyright part end from here/===========*/
